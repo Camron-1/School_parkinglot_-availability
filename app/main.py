@@ -10,7 +10,7 @@ def calc_diff(im1, im2):
 
 
 mask_path = "./mask_1920_1080.png"
-video_path = "./samples/12125602_3840_2160_30fps.mp4"
+video_path = "./samples/video.mp4"
 
 mask = cv.imread(mask_path, cv.IMREAD_GRAYSCALE)
 if mask is None:
